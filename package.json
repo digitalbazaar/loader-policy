@@ -1,0 +1,45 @@
+{
+  "name": "loader-policy",
+  "version": "0.0.0",
+  "description": "Document loader policy builder for JSON-LD, DIDs and VCs.",
+  "homepage": "https://github.com/digitalbazaar/loader-policy",
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com/"
+  },
+  "contributors": [
+    "Dmitri Zagidulin <dmitriz@digitalbazaar.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/loader-policy"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/loader-policy/issues",
+    "email": "support@digitalbazaar.com"
+  },
+  "license": "BSD-3-Clause",
+  "main": "src/index.js",
+  "files": [
+    "src/"
+  ],
+  "dependencies": {
+  },
+  "browser": {
+  },
+  "devDependencies": {
+  },
+  "keywords": [
+    "JSON",
+    "Linked Data",
+    "JSON-LD",
+    "RDF",
+    "Semantic Web",
+    "Verifiable Claim",
+    "Credential"
+  ],
+  "scripts": {
+    "lint": "eslint '*.js' 'src/**.js' 'tests/**.js'"
+  }
+}

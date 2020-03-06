@@ -1,0 +1,15 @@
+*.sw[nop]
+*~
+.DS_Store
+.classpath
+.cproject
+.project
+.settings
+.vscode
+TAGS
+coverage
+dist
+node_modules
+npm-debug.log
+v8.log
+test-suites
